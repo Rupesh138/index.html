@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="Main_header">
+        <h2><b>USER PROFILE CARD</b></h2>
+        <hr>
+
+    </header>
+    <main>
+        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fcute-blue-robot-giving-thumbs-up-3d-picture-id1350820098%3Fb%3D1%26k%3D20%26m%3D1350820098%26s%3D170667a%26w%3D0%26h%3D8gO4GcPH-wsEZS6PYn2WXbQN3ZPPv98vE6mBl-Ckwr8%3D&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fpepper-robot&tbnid=xTJHDi4UDU-gZM&vet=12ahUKEwiDgceOtI37AhXoiNgFHcMNCXcQMygDegUIARDtAQ..i&docid=QjeS_V9SQKPOOM&w=416&h=416&q=robot%20photo&ved=2ahUKEwiDgceOtI37AhXoiNgFHcMNCXcQMygDegUIARDtAQ">
+        <div class="This_div">
+        <h4>Name: RUPESH MANJREKAR</h4>
+        <h4>Course: Engineering</h4>
+        <h4>Field: Artificial Intelligence and Data Science</h4>
+        <h4>Academic Year: 2022</h4>
+        <h4>UIN No: 201A056</h4>
+        <h4>Roll No: 31</h4>
+        <h4>Semester: 5</h4>
+        </div>
+        <hr>
+        <div class="Another_div">
+        <h4>Gender: Male</h4>
+        <h4>Blood: O+</h4>
+        <h4>SSC Passing Year: 2018</h4>
+        <h4>SSC Percentage: 85.4%</h4>
+        <h4>HSC Passing Year: 2020</h4>
+        <h4>HSC Percentage: 60%</h4>
+        </div>
+
+
+    </main>
+    <footer class="This_footer" style="background-color:rgb(0, 255, 106)">
+        <a class="anchor" href="#">Twitter</a>
+        <a class="anchor" href="#">Github</a>
+        <a class="anchor" href="#">Linked In</a>
+        
+    </footer>
+    
+</body>
+</html>
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    
+}
+.This_div{
+    padding-left: 25px;
+    color: black;
+    vertical-align: middle;
+
+
+}
+.Another_div{
+    
+    color: black;
+    padding-left: 25px;
+}
+
+
+.Main_header{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    vertical-align: middle;
+    
+}
+
+footer a:hover,
+footer a:active{
+    color: blueviolet;
+}
+
+.This_footer{
+    background-color: aqua;
+    color: black;
+    height: 100px;
+    vertical-align:middle;
+    
+}
+.anchor{
+    padding-left: 21%;
+    
+}
